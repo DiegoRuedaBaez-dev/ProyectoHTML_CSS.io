@@ -325,36 +325,37 @@ section{
     }
 }
 
-@media(max-width:1140px){
-    section{
+@media (max-width: 1140px) {
+    section {
         padding: 50px 8%;
     }
-    #menu-icon{
+    #menu-icon {
         display: initial;
-        color:var(--text-color)
+        color: var(--text-color);
     }
-    header .navbar{
+    header .navbar {
         position: absolute;
-        top: -400;
+        top: -400px;
         left: 0;
         right: 0;
         flex-direction: column;
         text-align: center;
         background: #662e03;
-        transition: .3s;
+        transition: 0.3s;
     }
-    header .navbar.active{
-        top: 70px;
+    header .navbar.active {
+        top: 120px;
     }
-    .navbar a{
+    .navbar a {
         padding: 1.5rem;
         display: block;
-    }
-    .col{
+        text-decoration: none;
+    .col {
         width: 50%;
         margin-bottom: 10px;
     }
 }
+
 
 @media(max-width:720px){
     header{
