@@ -9,9 +9,9 @@
 }
 
 :root{
-    --main-color:#ff702a;
+    --main-color:#ff432a;
     --text-color:#fff;
-    --bg-color: #1e1c2a;
+    --bg-color: #662e03;
     --big-font: 5rem;
     --h2-font:2.25rem;
     --p-font: 0.9rem;
@@ -80,8 +80,8 @@ section{
     align-items: center;
 }
 .home img{
-    max-width: 130%;
-    width: 750px;
+    max-width: 100%;
+    width: 600px;
     height: auto;
 }
 
@@ -116,7 +116,7 @@ section{
 }
 
 .about-img img{
-    max-width: 120%;
+    max-width: 100%;
     width: 620px;
     height: auto;
 }
@@ -167,8 +167,8 @@ section{
     height: 220px;
 }
 .box-img1 img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 .box-img2 img{
     width: 100%;
@@ -275,6 +275,7 @@ section{
 }
 
 .col ul li:not(:last-child){
+    color: #ffffff;
     margin-bottom: 15px;
 }
 .col ul li a{
@@ -339,7 +340,7 @@ section{
         right: 0;
         flex-direction: column;
         text-align: center;
-        background: #2b2640;
+        background: #662e03;
         transition: .3s;
     }
     header .navbar.active{
